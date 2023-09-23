@@ -1,0 +1,94 @@
+body{
+    height: 50vh;
+    background-color: #595F72;
+    padding: 0px;
+    margin: 0px;
+  
+} 
+.headline{
+display: block;
+width: 50%;
+margin-left: 25%;
+text-align: center;
+margin-top: 2%;
+height: 300px;
+font-size: 2rem;
+font-family: 'Courgette', cursive;
+color: palegreen;
+}
+.dice{
+
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 0px;
+    margin-top: 0px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 100px;
+
+    
+}
+.dice>*{
+    height: 200px;
+    width: 200px;
+    background-color: #D8D5DB;
+    border-radius: 15%;
+    padding: 40px;
+    margin-bottom: 40px;
+    
+
+}
+.property{
+    display: grid;
+    grid-template-columns: 30px 30px 30px ;
+    grid-template-rows: 30px 30px 30px ;
+    justify-content: center;
+    gap: 55px;
+    height: 100%;
+}
+.property>*{
+    background-color: black;
+    border-radius: 100%;
+}
+.players{
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    margin-top: 10px;
+   text-align: center;
+
+  
+}
+.players>*{
+    flex-basis: 50%;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
+    color: palegreen;
+    
+}
+
+.invisible1{
+    visibility: hidden;
+}
+.invisible2{
+    visibility: hidden;
+}
+footer{
+    text-align: center;
+  
+}
+.img{
+    height: 20px;
+    width: 100px;
+}
+button{
+    width: 250px;
+    height: 100px;
+    font-size: 2rem;
+    border-radius: 10px;
+    font-family: 'Courgette', cursive;
+    background-color: #D8D5DB;
+}
