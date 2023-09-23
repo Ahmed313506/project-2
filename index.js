@@ -7,6 +7,7 @@
 // });
 const button=document.querySelector("button");
 button.addEventListener("click",()=> {window.location.reload();});
+
 var b = Math.floor(Math.random()*6+1);
 var w = Math.floor(Math.random()*6+1);
 
@@ -148,11 +149,11 @@ else if (w===2){
 
             
                             if(w<b){
-                                document.querySelector("h1").innerHTML=("<< Congratulations for Player 1 !");
+                                document.querySelector("h1").innerHTML=("<< Player 1 wins !");
                                 
                             }
                             else if(w>b){
-                                document.querySelector("h1").innerHTML=(" Congratulations for Player 2 >> !");
+                                document.querySelector("h1").innerHTML=(" Player 2 wins ! >> ");
                             }
                             else {
                                 document.querySelector("h1").innerHTML=("<< Draw >>");
