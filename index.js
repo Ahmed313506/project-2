@@ -5,8 +5,7 @@
 //     // Use location.reload() to reload the page
 //     location.reload();
 // });
-const button=document.querySelector("button");
-button.addEventListener("click",()=> {window.location.reload();});
+$("button").click(function ()  {window.location.reload()});
 
 var b = Math.floor(Math.random()*6+1);
 var w = Math.floor(Math.random()*6+1);
@@ -153,7 +152,7 @@ else if (w===2){
                                 
                             }
                             else if(w>b){
-                                document.querySelector("h1").innerHTML=(" Player 2 wins ! >> ");
+                                document.querySelector("h1").innerHTML=(" Player 2 wins >> !");
                             }
                             else {
                                 document.querySelector("h1").innerHTML=("<< Draw >>");
